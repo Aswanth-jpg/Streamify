@@ -1,0 +1,125 @@
+/* src/pages/AdminLogin.css */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    position: relative;
+  }
+  
+  .home-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 400;
+  transition: background 0.3s;
+  width: auto;
+  min-width: 50px;
+}
+  
+  .home-button:hover {
+  background: #5a6268;
+}
+  
+  .login-form {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #010101;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  background-color: white;
+  color: #333;
+  box-sizing: border-box;
+}
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  .signup-link {
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  .signup-link span {
+    color: #9ca3af;
+    margin-right: 8px;
+  }
+  
+  .signup-button {
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+
+  }
+  
