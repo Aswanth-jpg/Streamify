@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+
     "start": "node server.js",
-    "build": "cd ../frontend && npm install && npm run build && cp -r dist/* ../backend/public/",
+    "build": "cd ../frontend && npm install && npm run build && mkdir -p ../backend/public && cp -r dist/* ../backend/public/",
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "create-admin": "node scripts/createAdmin.js"
   },
